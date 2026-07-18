@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美的プロファイル - AESTHETICS FOOTPRINTS</title>
+    <!-- Google Fonts: Inter & Noto Sans JP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-container">
+        
+        <!-- STEP 1: 分析中 (Analyzing) -->
+        <section class="step active" id="step-1">
+            <div class="content-center">
+                <div class="loader-container">
+                    <svg class="loader" viewBox="0 0 50 50">
+                        <circle class="loader-path" cx="25" cy="25" r="20" fill="none" stroke-width="1.5"></circle>
+                    </svg>
+                </div>
+                <div class="text-group">
+                    <p class="fade-text">分析しています</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 2: 特徴の表示 (Traits) -->
+        <section class="step" id="step-2">
+            <div class="content-center">
+                <span class="sub-title">あなたが繰り返し反応した特徴</span>
+                <div class="tags-container" id="tags-list">
+                    <!-- JSでクラス付与することで順次フェードイン -->
+                    <span class="tag" style="--delay: 0.6s; --size: 2.5rem; --op: 1.0; font-weight: 800;">透明感</span>
+                    <span class="tag" style="--delay: 1.4s; --size: 2.0rem; --op: 0.85; font-weight: 800;">静けさ</span>
+                    <span class="tag" style="--delay: 2.2s; --size: 1.7rem; --op: 0.75; font-weight: 500;">余白</span>
+                    <span class="tag" style="--delay: 3.0s; --size: 1.4rem; --op: 0.65; font-weight: 500;">自然光</span>
+                    <span class="tag" style="--delay: 3.8s; --size: 1.2rem; --op: 0.55; font-weight: 400;">対称性</span>
+                    <span class="tag" style="--delay: 4.6s; --size: 1.0rem; --op: 0.45; font-weight: 400;">浮遊感</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 3: 分析結果 (Analysis Details) -->
+        <section class="step" id="step-3">
+            <div class="content-center">
+                <div class="analysis-wrapper">
+                    <p class="analysis-intro">
+                        今回選択した作品には<br>
+                        ・<strong>透明感</strong><br>
+                        ・<strong>静けさ</strong><br>
+                        ・<strong>自然光</strong><br>
+                        という特徴が繰り返し見られました。
+                    </p>
+                    
+                    <div class="chart-container">
+                        <span class="chart-title">最も多く選択された特徴</span>
+                        
+                        <div class="chart-row">
+                            <div class="chart-label-group">
+                                <span class="chart-label">透明感</span>
+                                <span class="chart-value">87%</span>
+                            </div>
+                            <div class="progress-bar-total">
+                                <div class="progress-bar-fill" style="--width: 87%; --delay: 0.4s;"></div>
+                            </div>
+                        </div>
+
+                        <div class="chart-row">
+                            <div class="chart-label-group">
+                                <span class="chart-label">静けさ</span>
+                                <span class="chart-value">74%</span>
+                            </div>
+                            <div class="progress-bar-total">
+                                <div class="progress-bar-fill" style="--width: 74%; --delay: 0.6s;"></div>
+                            </div>
+                        </div>
+
+                        <div class="chart-row">
+                            <div class="chart-label-group">
+                                <span class="chart-label">余白</span>
+                                <span class="chart-value">68%</span>
+                            </div>
+                            <div class="progress-bar-total">
+                                <div class="progress-bar-fill" style="--width: 68%; --delay: 0.8s;"></div>
+                            </div>
+                        </div>
+
+                        <div class="chart-row">
+                            <div class="chart-label-group">
+                                <span class="chart-label">自然光</span>
+                                <span class="chart-value">63%</span>
+                            </div>
+                            <div class="progress-bar-total">
+                                <div class="progress-bar-fill" style="--width: 63%; --delay: 1.0s;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 4: コラージュ (Collage) -->
+        <section class="step" id="step-4">
+            <div class="collage-container">
+                <div class="collage-canvas" id="collage-canvas">
+                    <!-- JSで動的に配置して、ふんわり出現させる -->
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
