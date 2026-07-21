@@ -234,13 +234,14 @@
         }
 
         .control-btn {
-            background: var(--color-bg);
+            background: transparent;
             color: var(--color-text);
-            border: 2px solid var(--color-border);
+            border: none;
             width: 40px;
             height: 40px;
-            font-size: 1.2rem;
-            font-weight: 800;
+            font-size: 1.6rem;
+            font-weight: 900;
+            -webkit-text-stroke: 1px currentColor;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -249,8 +250,8 @@
         }
 
         .control-btn:hover {
-            background: var(--color-text);
-            color: var(--color-bg);
+            background: transparent;
+            opacity: 0.6;
         }
 
         .progress-bar-total {
@@ -289,16 +290,14 @@
         <div class="slide active">
             <div class="slide-header">
                 <span>CyberAgent Entry Assignment // Proposal</span>
-                <span>東京都立大学大学院 野々川 凜</span>
+                <span>東京都立大学 野々川 凜</span>
             </div>
             <div class="slide-content">
-                <h1 class="slide-title-large"><strong>「好き」</strong>知る</h1>
-                <p class="slide-subtitle">日常の無意識の選択から、自分でも気づいていない「好き」を可視化する体験</p>
+                <h1 class="slide-title-large"><strong>「好き」</strong>に気づく</h1>
+                <p class="slide-subtitle">日常から自分でも気づいていない「好き」を見つける</p>
 
             </div>
         </div>
-
-        <!-- SLIDE 2: 1. 自分は「好き」がよくわからない -->
         <div class="slide">
             <div class="slide-header">
                 <span>01. My Experience</span>
@@ -308,11 +307,11 @@
                 <h2 class="slide-title">自分の「好き」とは</h2>
                 <div class="grid-2">
                     <div>
-                        <p>私は自分の「好き」があまり何かわらない。</p>
+                        <p>私は、自分の「好き」があまりわからない。</p>
                         <br>
                         <p>もちろん、好きなものがないわけではない。</p>
                         <br>
-                        <p>しかし、自分が心を動かされるものは、私にとってあまりにも当たり前の存在であり、意識して「好きだ」と認識することは少ない。</p>
+                        <p>しかし、自分が心が惹かれるものは、私にとってあまりにも当たり前の存在であり、意識して「好きだ」と認識することは少ない。</p>
                     </div>
                     <div class="border-box">
                         <p>聴く音楽、観る映画、街で目を向ける場所、居心地のよい空間。それらは生活の中に自然と根付いている。</p>
@@ -335,7 +334,7 @@
                 <h2 class="slide-title">他者から知る自分の「好き」</h2>
                 <div class="grid-1">
                     <div>
-                        <p>「好き」について考えたとき、最初に思い浮かんだのは、自分で好きだと思っていたものではなく、友人から言われたこと。</p>
+                        <p>「好き」とは何かを考えたとき、最初に思い浮かんだのは、自分で好きだと思っていたものではなく、友人から言われたこと。</p>
                         <ul>
                             <li>「ビビッドピンクの持ち物多いね。」</li>
                             <li>「空よく見てるよね。」</li>
@@ -359,12 +358,12 @@
                 <span>「好き」に気づく</span>
             </div>
             <div class="slide-content">
-                <h2 class="slide-title">人は自分の「好き」を理解しているのか</h2>
+                <h2 class="slide-title">「好き」は、本当に自覚できているのだろうか</h2>
                 <div class="grid-1">
                     <div>
-                        <p><strong>本人が気づいていない無意識の中に「好き」は、まだたくさん存在しているのではないだろうか。</strong></p>
+                        <p><strong>本人もまだ気づいていない「好き」は、無意識の選択の中に数多く存在しているのではないだろうか。</strong></p>
                         <br>
-                        <p>「好き」を気づくことは、自分を知ることである。<br>「好き」を意識的に生活へ取り入れることで、日常は少しだけ豊かになるのではないだろうか。</p>
+                        <p>「好き」に気づくことは、自分を知ることである。<br>「好き」を意識的に生活へ取り入れることで、日常は少しだけ豊かになるのではないだろうか。</p>
                     </div>
                 </div>
             </div>
@@ -386,17 +385,17 @@
                 <h2 class="slide-title">『好き』に気づく展</h2>
                 <div class="grid-2">
                     <div>
-                        <p style="font-size: 0.95rem; color: var(--color-muted); margin-bottom: 15px; border-left: 2px solid var(--color-border); padding-left: 10px; line-height: 1.4;">
-                            本提案は、「好きなものを一つ選ぶ」というテーマに対し、あえて「好きなものがわからない」という課題から出発し、そこから「好きに気づく場と体験そのもの」を商品として提案する。
+                        <p style="font-size: 1.4rem; font-weight: 700; line-height: 1.5; margin-bottom: 20px;">
+                            「好き」を選ぶのではなく、<br>
+                            <strong>「好き」に気づく体験</strong>を提供する。
                         </p>
-                        <p><strong>自分でも気づいていない「好き」を発見する体験を提案する。</strong></p>
-                        <p style="margin-top: 10px;">無意識の選択から自分でも気づいていない「好き」を可視化する参加型インスタレーション</p>
-                        
-                        <br>
-                        <ul style="margin-top: 10px; font-size: 1.15rem; line-height: 1.5;">
-                            <li>デジタルだけで完結させない</li>
-                            <li>体を動かして「選ぶ」体験</li>
-                        </ul>
+                        <p style="font-size: 1.0rem; color: var(--color-text); line-height: 1.6; margin-bottom: 15px;">
+                            来場者は直感で「気になるもの」を記録するだけ。<br>
+                            無意識の選択の積み重ねから、自分でも知らなかった「好き」が浮き彫りになる参加型インスタレーション。
+                        </p>
+                        <p style="font-size: 0.9rem; color: var(--color-muted); line-height: 1.5; border-left: 2px solid var(--color-border); padding-left: 10px;">
+                            「好き」は画面の中だけではなく、空間を歩き、自分の身体で選ぶ行為の中に現れると考え、展示という体験形式を採用。
+                        </p>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--color-light-bg);">
                         <img src="exhibition.jpg" alt="Exhibition Example" style="max-width: 100%; max-height: 320px; object-fit: contain;">
@@ -421,20 +420,19 @@
                 <h2 class="slide-title">展示の基本形式</h2>
                 <div class="grid-2">
                     <div>
-                        <p><strong>無意識の選択を促す空間設計</strong></p>
-                        <ul>
-                            <li>展示空間に100〜300点程度の多様な作品をパネル展示。</li>
-                            <li>先入観を排除するため、作品にはタイトルや説明を一切付与しない。</li>
-                            <li>来場者は、自身の「気になったもの」を選び、空間を自由に周遊する。</li>
-                        </ul>
+                        <p style="font-size: 1.3rem; font-weight: 700; line-height: 1.5; margin-bottom: 15px;">
+                            作品には<strong>タイトルも説明も一切付与しない。</strong>
+                        </p>
+                        <p style="font-size: 1.05rem; color: var(--color-text); line-height: 1.6;">
+                            文字情報や先入観を完全に排除。<br>
+                            来場者は「気になった」という<strong>直感だけ</strong>で作品を選び、空間を自由に周遊する。
+                        </p>
                     </div>
                     <div class="border-box">
-                        <p><strong>展示作品と多感覚素材:</strong></p>
-                        <ul style="margin-top: 10px; font-size: 1rem; line-height: 1.4;">
-                            <li><strong>総合的なメディアの混在</strong><br>
-                            写真・映像・3DCG・イラスト・グラフィックなど、あらゆる表現形態を同一空間にパネル展示し、視覚的な「好き」を網羅。</li>
-                            <li><strong>触角（触覚）で触れる素材の提示</strong><br>
-                            一部の作品や展示台には、ファーなどの起毛生地、シリコン、特殊樹脂など、実際に触れて質感を感じられる素材を配置。触覚的アプローチからも「好き」を採集。</li>
+                        <p style="font-weight: 800; font-size: 1.1rem; margin-bottom: 10px;">空間設計</p>
+                        <ul style="font-size: 1.0rem; line-height: 1.6; list-style: none;">
+                            <li>100〜300点規模の多様な作品群をパネル展示</li>
+                            <li>視覚表現だけでなく触覚素材も配置し直感を刺激</li>
                         </ul>
                     </div>
                 </div>
@@ -444,11 +442,6 @@
                 <span>Slide 06 / 13</span>
             </div>
         </div>
-
-
-
-
-
 
         <!-- SLIDE 6: 体験プロセス①：無意識の採集（記録） -->
         <div class="slide">
@@ -460,19 +453,18 @@
                 <h2 class="slide-title">体験プロセス①：記録</h2>
                 <div class="grid-2">
                     <div>
+                        <p style="font-size: 1.3rem; font-weight: 700; line-height: 1.5; margin-bottom: 20px;">
+                            記録の操作は<strong>限界までシンプルに。</strong>
+                        </p>
+                        
+                        <p style="font-size: 1.15rem; color: var(--color-text); line-height: 1.6; margin-bottom: 20px;">
+                            気になった作品の前で、<strong>カードをかざすだけ。</strong>
+                        </p>
 
-                        <strong>NFCカードによる簡易な記録:</strong>
-                        <ul>
-                            <li>来場者は、受付でNFCカードを受け取る。作品のすぐ横にはNFCリーダーが設置されている。</li>
-                            <li>来場者は気になった作品の前で、カードをかざすだけでその作品が記録される。</li>
+                        <ul style="font-size: 0.95rem; line-height: 1.6; color: var(--color-muted);">
+                            <li>「好きかどうか」を悩ませず、直感的な反応のみを蓄積</li>
+                            <li>画面操作を介さず、ワンタッチの身体的アクションで完了</li>
                         </ul>
-
-                        <strong>「好き」を質問しない:</strong>
-                        <ul>
-                            <li>来場者は「少しでも気になった作品」を選択し、カードをタッチする。</li>
-                        </ul>
-
-
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background: var(--color-light-bg);">
                         <img src="nfc.jpg" alt="NFC Reader Example" style="max-width: 100%; max-height: 320px; object-fit: contain;">
@@ -498,15 +490,19 @@
                 <h2 class="slide-title">体験プロセス②：タグの共創</h2>
                 <div class="grid-1">
                     <div>
-                        <strong>来場者自身によるタグ付け:</strong>
-                        <ul>
-                            <li>ランダムで選ばれた作品（例：10作品）について、来場者自身がその作品それぞれに対して「静けさ」「透明感」「懐かしさ」など、自分が感じた印象をタグとして付与する。</li>
-                            <li>タグの付与は、自由入力または候補からの選択で行う。</li>
+                        <p style="font-size: 1.25rem; font-weight: 700; line-height: 1.5; margin-bottom: 20px; border-left: 3px solid var(--color-border); padding-left: 12px;">
+                            作品を分析するためではなく、<strong>「他者の感じ方」を集めるため</strong>にタグを共有する。
+                        </p>
+
+                        <strong>来場者自身による直感のタグ付け:</strong>
+                        <ul style="margin-bottom: 20px;">
+                            <li>提示された作品に対し、「静けさ」「透明感」など直感的に感じた印象を付与。</li>
                         </ul>
-                        <strong>タグの蓄積と分析:</strong>
+                        
+                        <strong>感性データの共創と掛け合わせ:</strong>
                         <ul>
-                            <li>展示期間中、来場者の選択履歴とタグは蓄積され続ける。各作品には、来場者が付けた多くの異なるタグが蓄積されていく（例：透明感 42票、静けさ 37票）。</li>
-                            <li>研究者や主催者が一方的に作品の意味を決めるのではない、来場者全体によって作品の特徴が形作られる。</li>
+                            <li>来場者全員のタグが蓄積されることで、各作品に集団の客観的な印象特徴が形成されていく。</li>
+                            <li>「自分が気になった作品群」×「他者の感性データ」を掛け合わせることで、自分の潜在的な傾向を算出。</li>
                         </ul>
                     </div>
                 </div>
@@ -524,18 +520,28 @@
                 <span>「好き」に気づく</span>
             </div>
             <div class="slide-content">
-                <h2 class="slide-title">フィードバック：自分の「好き」</h2>
-                <div class="grid-1">
+                <h2 class="slide-title">フィードバック：自分の選択の可視化</h2>
+                <div class="grid-2">
                     <div>
-                        <strong>フィードバックは展示期間終了後:</strong>
-                           <ul>
-                                <li>来場者たち自身が決めたタグでFBを提供する。</li>
-                                <li>即時に結果を表示しないことで、結果を待つまでの間に
-                                <br>「自分は何を選んだのか、自分の好きなものは何なのか」を自発的に考える時間（空白）が生まれる。</li>
-                                <li>自分が考えていたことと実際の選択結果を「比較」することで、主観と客観のズレから新たな発見が生まれる。</li>
-                                <li>解析結果として提示される「透明感」「静けさ」などの特徴と、選択した作品一覧を見返しながら、「確かにこういうものばかり選んでいた」と、納得感を持って「好き」を発見できる体験を提供する。
-                                </li>
-                            </ul>
+                        <p style="font-size: 1.25rem; font-weight: 700; line-height: 1.5; margin-bottom: 15px;">
+                            「気になる」のデータ集積から、<br><strong>自身の選択傾向が鮮明に可視化される。</strong>
+                        </p>
+                        <ul style="font-size: 1.0rem; line-height: 1.6; color: var(--color-text);">
+                            <li>展示終了後に自身の感性パターンを届ける</li>
+                            <li>「なぜ気になったのか」を自発的に振り返る余白</li>
+                            <li>自覚していなかった<strong>「本当の好き」</strong>を確信する体験</li>
+                        </ul>
+                    </div>
+                    <div class="border-box" style="background-color: var(--color-light-bg);">
+                        <p style="font-weight: 800; font-size: 0.85rem; color: var(--color-muted); text-transform: uppercase; margin-bottom: 10px;">[ フィードバック通知イメージ ]</p>
+                        <p style="font-size: 1.05rem; line-height: 1.6;">
+                            あなたは<br>
+                            ・<strong>透明感</strong><br>
+                            ・<strong>余白</strong><br>
+                            ・<strong>柔らかさ</strong><br>
+                            ・<strong>夕暮れ</strong><br>
+                            という特徴を持つ作品を無意識に数多く選んでいました。
+                        </p>
                     </div>
                 </div>
             </div>
@@ -545,21 +551,78 @@
             </div>
         </div>
 
-        <!-- SLIDE 9: INTERACTIVE DEMO (Moved here) -->
+        <!-- SLIDE 9: 分析フロー -->
         <div class="slide">
             <div class="slide-header">
-                <span>09. Interactive Prototype</span>
+                <span>09. Analysis Logic</span>
                 <span>「好き」に気づく</span>
             </div>
             <div class="slide-content">
-                <h2 class="slide-title">プロトタイプデモの実演</h2>
-                <div class="grid-1" style="align-items: center;">
-                    <div>
-                        <p>来場者の選択データと感性タグの共創結果を解析し、自分自身で共通点に気づくためのフィードバック画面である。</p>
+                <h2 class="slide-title">分析フロー</h2>
+                <p style="font-size: 0.95rem; color: var(--color-muted); margin-top: -15px; margin-bottom: 15px;">意味の近いタグを統合し、来場者の感性を特徴として抽出する</p>
+                
+                <div style="display: grid; grid-template-columns: 160px 1fr 200px; gap: 12px; margin-top: 15px; align-items: stretch;">
+                    
+                    <!-- 左の細いカード（入力） -->
+                    <div class="border-box" style="padding: 14px 12px; display: flex; flex-direction: column; justify-content: center; background: #fff; position: relative; overflow: hidden;">
+                        <span style="position: absolute; right: 8px; bottom: 4px; font-size: 2.8rem; font-weight: 900; color: #000; opacity: 0.05; pointer-events: none; line-height: 1;">01</span>
+                        <h4 style="font-size: 0.95rem; font-weight: 700; line-height: 1.3;">来場者が作品を選択</h4>
+                        <p style="font-size: 0.75rem; color: var(--color-muted); margin-top: 6px; line-height: 1.4;">直感でカードをかざし「気になる」作品を記録</p>
                     </div>
-                    <div class="demo-iframe-container" style="margin-top: 0; height: 80vh; min-height: 350px; max-height: 550px;">
-                        <iframe src="exhibition-results/index.html" id="demo-frame"></iframe>
+
+                    <!-- 中央の大きな分析エリア (主役) -->
+                    <div style="background: rgba(0,0,0,0.015); border: 1.5px dashed var(--color-border); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="display: flex; align-items: stretch; gap: 6px; width: 100%; flex: 1;">
+                            
+                            <!-- タグ取得 (STEP 02) -->
+                            <div class="border-box" style="padding: 10px 8px; background: #fff; flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                <span style="position: absolute; right: 4px; bottom: 2px; font-size: 2.2rem; font-weight: 900; color: #000; opacity: 0.05; pointer-events: none; line-height: 1;">02</span>
+                                <h4 style="font-size: 0.85rem; font-weight: 700;">タグ取得</h4>
+                                <p style="font-size: 0.7rem; color: var(--color-muted); margin-top: 4px; line-height: 1.3;">選択作品に付与された他者の感性タグを集約</p>
+                            </div>
+
+                            <div style="display: flex; align-items: center; color: var(--color-muted); font-size: 0.85rem; font-weight: 700;">→</div>
+
+                            <!-- 意味を数値化 (STEP 03) -->
+                            <div class="border-box" style="padding: 10px 8px; background: #fff; flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                <span style="position: absolute; right: 4px; bottom: 2px; font-size: 2.2rem; font-weight: 900; color: #000; opacity: 0.05; pointer-events: none; line-height: 1;">03</span>
+                                <h4 style="font-size: 0.85rem; font-weight: 700;">意味を数値化</h4>
+                                <p style="font-size: 0.7rem; color: var(--color-muted); margin-top: 4px; line-height: 1.3;">Embeddingにより高次元のベクトル空間へ変換</p>
+                            </div>
+
+                            <div style="display: flex; align-items: center; color: var(--color-muted); font-size: 0.85rem; font-weight: 700;">→</div>
+
+                            <!-- 統合 (STEP 04) -->
+                            <div class="border-box" style="padding: 10px 8px; background: #fff; flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                <span style="position: absolute; right: 4px; bottom: 2px; font-size: 2.2rem; font-weight: 900; color: #000; opacity: 0.05; pointer-events: none; line-height: 1;">04</span>
+                                <h4 style="font-size: 0.85rem; font-weight: 700;">統合 (クラスタ)</h4>
+                                <p style="font-size: 0.7rem; color: var(--color-muted); margin-top: 4px; line-height: 1.3;">類似概念を結合<br>（透明感・澄んだ ➔「透明性」）</p>
+                            </div>
+
+                            <div style="display: flex; align-items: center; color: var(--color-muted); font-size: 0.85rem; font-weight: 700;">→</div>
+
+                            <!-- 特徴抽出 (STEP 05) -->
+                            <div class="border-box" style="padding: 10px 8px; background: #fff; flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                <span style="position: absolute; right: 4px; bottom: 2px; font-size: 2.2rem; font-weight: 900; color: #000; opacity: 0.05; pointer-events: none; line-height: 1;">05</span>
+                                <h4 style="font-size: 0.85rem; font-weight: 700;">特徴抽出</h4>
+                                <p style="font-size: 0.7rem; color: var(--color-muted); margin-top: 4px; line-height: 1.3;">各クラスタの重みを集計し嗜好傾向を特定</p>
+                            </div>
+
+                        </div>
                     </div>
+
+                    <!-- 右の細いカード（特別成果物） -->
+                    <div class="border-box" style="padding: 14px 12px; display: flex; flex-direction: column; justify-content: center; background-color: #f8fafc; border-color: var(--color-text); position: relative; overflow: hidden;">
+                        <span style="position: absolute; right: 8px; bottom: 4px; font-size: 2.8rem; font-weight: 900; color: #000; opacity: 0.06; pointer-events: none; line-height: 1;">06</span>
+                        <h4 style="font-size: 0.95rem; font-weight: 700; line-height: 1.3;">「好き」の可視化通知</h4>
+                        <p style="font-size: 0.75rem; color: var(--color-muted); margin-top: 6px; line-height: 1.3;">選んだ作品の共通特徴：</p>
+                        <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px;">
+                            <span style="font-size: 0.8rem; font-weight: 800; background: var(--color-text); color: #fff; padding: 2px 6px; border-radius: 4px;">透明性</span>
+                            <span style="font-size: 0.8rem; font-weight: 800; background: var(--color-text); color: #fff; padding: 2px 6px; border-radius: 4px;">静けさ</span>
+                            <span style="font-size: 0.8rem; font-weight: 800; background: var(--color-text); color: #fff; padding: 2px 6px; border-radius: 4px;">余白</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="slide-footer">
@@ -578,16 +641,22 @@
                 <h2 class="slide-title">市場への展開</h2>
                 <div class="grid-2">
                     <div>
-                        <p>『好き』に気づく展は、一度きりの展示ではなく、各地域・美術館・商業施設・企業イベントなどへ巡回可能な体験型コンテンツとして展開できる。展示を重ねるほどタグデータが蓄積されるため、展示自体が成長し続ける。</p>
-                        <br>
-                        <p>また、蓄積された特徴データを活用することで、<strong>新たなサービスへの展開</strong>も期待できる。</p>
+                        <p style="font-size: 1.2rem; font-weight: 700; line-height: 1.5; margin-bottom: 15px;">
+                            巡回型コンテンツとしての展開と、<br><strong>データによる他領域への応用。</strong>
+                        </p>
+                        <p style="font-size: 1.0rem; color: var(--color-text); line-height: 1.6;">
+                            商業施設・地域イベント・美術館へ巡回展開。展示を重ねるほど感性データが蓄積・成長し、プラットフォームとしての価値が高まる。
+                        </p>
                     </div>
                     <div class="border-box">
-                        <p><strong>展開サービスの可能性:</strong></p>
-                        <ul style="margin-top: 5px; font-size: 1rem; line-height: 1.4;">
-                            <li>自分に合った展示やイベントの推薦</li>
-                            <li>商品・サービスとのマッチング</li>
-                            <li>趣味や旅行先の提案</li>
+                        <p style="font-weight: 800; font-size: 1.05rem; margin-bottom: 10px;">「好き」の特徴データの応用</p>
+                        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 10px;">
+                            展示で得られた「好き」の特徴データは、日常のあらゆるサービスへと応用できる：
+                        </p>
+                        <ul style="font-size: 0.95rem; line-height: 1.6; list-style: none;">
+                            <li><strong>商品推薦</strong>（感性に適合するアイテム）</li>
+                            <li><strong>旅行提案</strong>（直感に響く空間・場所）</li>
+                            <li><strong>展示推薦</strong>（嗜好にマッチするイベント）</li>
                         </ul>
                     </div>
                 </div>
@@ -598,20 +667,22 @@
             </div>
         </div>
 
-        <!-- SLIDE 11: 目指す社会（Vision） -->
+        <!-- SLIDE 11: 課題要件との相乗効果 -->
         <div class="slide">
             <div class="slide-header">
-                <span>11. Vision</span>
+                <span>11. Synergy & Impact</span>
                 <span>「好き」に気づく</span>
             </div>
             <div class="slide-content">
-                <h2 class="slide-title">目指す形</h2>
+                <h2 class="slide-title">課題要件との相乗効果</h2>
                 <div class="grid-1">
-                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%; min-height: 250px;">
-                        <p style="font-size: 1.8rem; line-height: 1.6; font-weight: 700; color: var(--color-text);">
-                            自分の「好き」に気づくことで、<br>
-                            日々が少しだけ<strong>楽しく豊かに</strong>なること
-            
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; min-height: 250px;">
+                        <p style="font-size: 1.6rem; line-height: 1.8; color: var(--color-text); margin-bottom: 20px;">
+                            他者が<span style="color: var(--color-muted);">「好きなもの」</span>を提案するなら、<br>
+                            私は<strong>「好きを見つける体験」</strong>を提案する。
+                        </p>
+                        <p style="font-size: 1.1rem; color: var(--color-muted); line-height: 1.6;">
+                            特定の商品にとどまらず、あらゆるサービスや価値と結びつくハブとなる仕組み。
                         </p>
                     </div>
                 </div>
@@ -622,22 +693,20 @@
             </div>
         </div>
 
-        <!-- SLIDE 13: 課題要件との相乗効果 -->
+        <!-- SLIDE 12: 目指す社会（Vision） -->
         <div class="slide">
             <div class="slide-header">
-                <span>12. Synergy & Impact</span>
+                <span>12. Vision</span>
                 <span>「好き」に気づく</span>
             </div>
             <div class="slide-content">
-                <h2 class="slide-title">課題要件との相乗効果</h2>
+                <h2 class="slide-title">目指す形</h2>
                 <div class="grid-1">
-                    <div>
-                        <p><strong>前段階としての提案</strong></p>
-                        <p>
-                            他の候補者が「特定の好きな商品・体験」を1つ選んでその価値最大化を提案するのに対し、本提案は人々が自分だけの「好き」を発見する体験と仕組みを提示。
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%; min-height: 250px;">
+                        <p style="font-size: 2.0rem; line-height: 1.7; font-weight: 700; color: var(--color-text);">
+                            自分の<strong>「好き」に気づくこと</strong>から、<br>
+                            日常は少し豊かになる。
                         </p>
-                        <br>
-                        <p>この仕組み自体が、あらゆる商品やサービスと結びつくハブとなる。</p>
                     </div>
                 </div>
             </div>

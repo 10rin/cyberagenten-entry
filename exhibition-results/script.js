@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     const steps = [
-        { id: 'step-1', duration: 3000 },
         { id: 'step-2', duration: 6500 },
         { id: 'step-3', duration: 5000 },
         { id: 'step-4', duration: null } // 最後のステップは停止
